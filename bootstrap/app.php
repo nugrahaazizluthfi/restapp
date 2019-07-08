@@ -52,11 +52,11 @@ $app->singleton(
 |
 */
 
-$app->configureMonologUsing(function ($monolog) use ($app) {
+$app->configureMonologUsing(function($monolog) use ($app) {
     $monolog->pushHandler(
         (new Monolog\Handler\RotatingFileHandler(
             // Set the log path
-            '/tmp/app_err.log',
+            $app->storagePath().'/logs/app_error.log',
             // Set the number of daily files you want to keep
             $app->make('config')->get('app.log_max_files', 30)
         ))->setFormatter(new Monolog\Formatter\LineFormatter(null, null, true, true))
