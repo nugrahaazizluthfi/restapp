@@ -8,6 +8,18 @@ Aplikasi ini dibangun menggunakan:
 | Laravel Framework | 5.7.28  |
 |     Composer      |  1.8.4  |
 
+### DOKUMENTASI API
+
+untuk dokumentasi api dapat diliat disini.
+
+https://walletsederhana.docs.apiary.io/#
+
+### DEMO APLIKASI
+
+untuk demo aplikasi dapat langsung diakses disini.
+
+http://walletku.duckdns.org/
+
 ### INSTALASI
 
 Untuk langkah pertama ketikan perintah berikut pada command line anda:
