@@ -45,7 +45,7 @@ DB_PASSWORD=
 
 > > >
 
-Ketikan perintah berikut untuk mengenerate app key anda:
+Ketikan perintah berikut untuk migrasi dan inisialisasi database anda:
 
 ```sh
 $ php artisan wallet-sederhana:init
