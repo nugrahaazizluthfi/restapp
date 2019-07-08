@@ -39,10 +39,10 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::get('saldo/total', 'API\Wallet\CheckBalanceController@getTotal');
 
     // GET TRANSACTION DATA
-    Route::get('transaction', 'API\TRX\TRX_CheckTransactionController@getTransactionData');
-    Route::get('transaction/detail/{id}', 'API\TRX\TRX_CheckTransactionController@getDetail');
-    Route::get('transaction/total', 'API\TRX\TRX_CheckTransactionController@getTotal');
+    Route::get('transaction', 'API\Trx\TRX_CheckTransactionController@getTransactionData');
+    Route::get('transaction/detail/{id}', 'API\Trx\TRX_CheckTransactionController@getDetail');
+    Route::get('transaction/total', 'API\Trx\TRX_CheckTransactionController@getTotal');
 
     // DEPOSIT
-    Route::post('deposit', 'API\TRX\TRX_DepositSaldoController@action');
+    Route::post('deposit', 'API\Trx\TRX_DepositSaldoController@action');
 });
