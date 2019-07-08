@@ -1,3 +1,13 @@
+### TECH
+
+Aplikasi ini dibangun menggunakan:
+
+|       Tech        | Version |
+| :---------------: | :-----: |
+|        PHP        | 7.2.11  |
+| Laravel Framework | 5.7.28  |
+|     Composer      |  1.8.4  |
+
 ### INSTALASI
 
 Untuk langkah pertama ketikan perintah berikut pada command line anda:
