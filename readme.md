@@ -20,6 +20,13 @@ untuk demo aplikasi dapat langsung diakses disini.
 
 http://walletku.duckdns.org/
 
+Untuk login anda bisa menggunakan User Account ini:
+
+|     Email     | Password |
+| :-----------: | :------: |
+| demoa@demo.id |  123456  |
+| demob@demo.id |  123456  |
+
 ### INSTALASI
 
 Untuk langkah pertama ketikan perintah berikut pada command line anda:
@@ -76,10 +83,3 @@ jika menggunakan php artisan serve nya laravel:
 -   http://localhost:8000/api/
 
 ENDPOINT dimulai dengan menggunakan prefix /api/
-
-Untuk login anda bisa menggunakan User Account ini:
-
-|     Email     | Password |
-| :-----------: | :------: |
-| demoa@demo.id |  123456  |
-| demob@demo.id |  123456  |
