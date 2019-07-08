@@ -53,7 +53,7 @@ $ php artisan wallet-sederhana:init
 
 ### SETUP CLIENT ENV
 
-Setelah selesai setting api ini di file .env pada aplikasi client kamu dengan mengetikan url berikut pada variable REACT_APP_API_URL:
+Setelah selesai, setting url api ini di file .env pada aplikasi client ( https://github.com/nugrahaazizluthfi/clientapp ) dengan mengetikan url berikut pada variable REACT_APP_API_URL:
 
 jika diletakan di webserver seperti XAMPP/Laragon :
 
@@ -63,7 +63,7 @@ jika menggunakan php artisan serve nya laravel:
 
 -   http://localhost:8000/api/
 
-*   ENDPOINT dimulai dengan menggunakan prefix /api/
+ENDPOINT dimulai dengan menggunakan prefix /api/
 
 Untuk login anda bisa menggunakan User Account ini:
 
