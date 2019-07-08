@@ -51,9 +51,19 @@ Ketikan perintah berikut untuk migrasi dan inisialisasi database anda:
 $ php artisan wallet-sederhana:init
 ```
 
-Setelah selesai setting api ini di file .env pada folder client kamu dengan mengetikan url berikut pada variable REACT_APP_API_URL:
+### SETUP CLIENT ENV
+
+Setelah selesai setting api ini di file .env pada aplikasi client kamu dengan mengetikan url berikut pada variable REACT_APP_API_URL:
+
+jika diletakan di webserver seperti XAMPP/Laragon :
 
 -   http://localhost/restapp/public/api/
+
+jika menggunakan php artisan serve nya laravel:
+
+-   http://localhost:8000/api/
+
+*   ENDPOINT dimulai dengan menggunakan prefix /api/
 
 Untuk login anda bisa menggunakan User Account ini:
 
