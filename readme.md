@@ -16,10 +16,6 @@ https://walletsederhana.docs.apiary.io/#
 
 ### DEMO APLIKASI
 
-untuk demo aplikasi dapat langsung diakses disini.
-
-http://walletku.duckdns.org/
-
 Untuk login anda bisa menggunakan User Account ini:
 
 |     Email     | Password |
